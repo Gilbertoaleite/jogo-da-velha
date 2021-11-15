@@ -1,0 +1,62 @@
+/** @format */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	text-align: center;
+	background: #1c1c1c;
+	color: orange;
+}
+.quadrado {
+	text-align: center;
+	width: 58px;
+	background: #eee;
+	display: inline-block;
+	padding: 48px;
+	font-size: 68px;
+	margin: 5px;
+	cursor: pointer;
+	color: #eee;
+}
+.jogador,
+.vencedor {
+	font-size: 30px;
+	margin-top: 10px;
+}
+/*   
+button {
+	margin-top: 10px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 4px;
+   background: green;
+   color: aliceblue;
+} */
+
+.day {
+	background: #ffff;
+}
+.day .tema button {
+	background: #1c1c1c;
+	color: #ffffff;
+	text-shadow: #ffffff 3px 1px 34px;
+	border: 2px solid #f7f7f7;
+}
+
+button {
+	font-size: 16px;
+	padding: 3px 1px 4px;
+	background: #ecf4ff;
+	border-radius: 98px;
+	margin: 1px;
+}
+
+#dev,
+a {
+	color: orange;
+	margin: 2px;
+	padding: 2px 2px 2px;
+	text-decoration: none;
+	text-align: left;
+}
